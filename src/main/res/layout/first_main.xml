@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="방구석 트레이닝"
+        android:fontFamily="@font/recipekoreafont1"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:background="@android:color/secondary_text_dark"
+        app:srcCompat="@drawable/h06" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/recipekoreafont1"
+        android:gravity="clip_horizontal|center|clip_vertical"
+        android:text="방구석에서 마동석, 김사랑 쌉가능 프로젝트!! "
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+
+        android:gravity="clip_horizontal|center|clip_vertical"
+        android:text="※단!! 얼굴은 변하지않습니다.  ※무리한 운동은 신체를 망가트립니다."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+
+        android:gravity="clip_horizontal|center|clip_vertical"
+        android:text="※방구석 헬창주의!"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn14"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_d1"
+        android:fontFamily="@font/recipekoreafont1"
+        android:text="입장하기!"
+        android:textColor="@null"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="right|end"
+        android:fontFamily="@font/recipekoreafont1"
+
+        android:text="by사나이정혜인/ YD막둥이혀누 " />
+
+
+</LinearLayout>

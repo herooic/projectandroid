@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            app:srcCompat="@android:drawable/ic_menu_revert"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="@font/recipekoreafont1"
+            android:gravity="center"
+            android:text="홈 트레이닝"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:textLocale="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/h10" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0"
+            android:background="@drawable/button_d1"
+            android:text="상체운동"
+            android:fontFamily="@font/recipekoreafont1"
+
+            android:textColor="@null" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0"
+            android:background="@drawable/button_d1"
+            android:text="하체운동"
+            android:fontFamily="@font/recipekoreafont1"
+
+            android:textColor="@null" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0"
+            android:background="@drawable/button_d1"
+            android:text="유산소운동"
+            android:fontFamily="@font/recipekoreafont1"
+
+            android:textColor="@null" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0"
+            android:background="@drawable/button_d1"
+            android:text="나의 운동리스트"
+            android:fontFamily="@font/recipekoreafont1"
+            android:textColor="@null" />
+
+    </LinearLayout>
+
+</LinearLayout>
